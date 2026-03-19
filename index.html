@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Download Course App</title>
+
+<script>
+function detectDevice() {
+
+var userAgent = navigator.userAgent.toLowerCase();
+
+if(userAgent.includes("android")){
+window.location.href="YOUR_GOOGLE_DRIVE_LINK";
+}
+
+}
+</script>
+
+</head>
+
+<body onload="detectDevice()" style="text-align:center;font-family:Arial">
+
+<h1>Ethical Hacking Course App</h1>
+
+<p>If download does not start, click the button below.</p>
+
+<a href="https://drive.google.com/file/d/1aMM-bIGwrbeOkdBbFr96DG7GOwPTmSZ5/view?usp=sharing">
+<button style="padding:15px;font-size:18px">
+Download App
+</button>
+</a>
+
+</body>
+</html>
